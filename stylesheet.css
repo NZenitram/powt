@@ -48,12 +48,12 @@ li a:hover {
   font-size: 15px;
   float: right;
   font-family: 'Passion One', cursive;
-  font-weight: 300;
+  font-weight: 100;
   color: #444546;
 }
 
 .column-head {
-  font-family: 'Passion One', cursive;
+  font-family: 'Passion One';
   letter-spacing: 2px;
   font-size: 20px;
   column-span: all;
