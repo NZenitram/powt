@@ -60,11 +60,38 @@ li a:hover {
 }
 
 .hand-shake {
-  width: 50%;
+  max-width: 25%;
 }
 
 .elpomar {
+  max-width: 75%;
   padding-right: 10px;
+}
+
+.darken {
+  -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+  -webkit-filter: brightness(60%);
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.smiles-3 {
+  position: absolute;
+  top: 175px;
+  left: 95;
+  width: 100%;
+  height: 75px;
+}
+
+.smiles {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.smiles.spacer {
+   padding: 3px 5px;
 }
 
 #banner-img {
@@ -72,6 +99,7 @@ li a:hover {
   max-width: 100%;
   max-height: 100%;
 }
+
 
 #body {
   margin-top: 45px;
