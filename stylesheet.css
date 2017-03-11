@@ -94,6 +94,17 @@ li a:hover {
    padding: 3px 5px;
 }
 
+.contact-info {
+  color: white;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.copyright {
+  color: white;
+  font-style: bold;
+}
+
 #services-columns {
   display: block;
   margin-top: 20px;
@@ -162,4 +173,8 @@ li a:hover {
 
 #col2-pad {
   padding-top: 20px;
+}
+
+#calender-link {
+  font-size: 20px;
 }
