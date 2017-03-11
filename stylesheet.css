@@ -52,6 +52,20 @@ li a:hover {
   color: #444546;
 }
 
+.column-head {
+  font-family: 'Passion One', cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.hand-shake {
+  width: 50%;
+}
+
+.elpomar {
+  padding-right: 10px;
+}
+
 #banner-img {
   padding-top: 50px;
   max-width: 100%;
@@ -59,7 +73,6 @@ li a:hover {
 }
 
 #body {
-
   margin-top: 45px;
   margin-right: 10%;
   margin-left: 10%;
@@ -75,5 +88,18 @@ li a:hover {
   -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
   -moz-column-rule-width: 1px; /* Firefox */
   column-rule-width: 1px;
+}
 
+#footer {
+  margin-top: 75px;
+  background-color: #444546;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  color: #9e9597;
+}
+
+#footer-text {
+  margin-right: 10%;
+  margin-left: 10%;
 }
