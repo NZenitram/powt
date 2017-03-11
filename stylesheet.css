@@ -56,6 +56,7 @@ li a:hover {
   font-family: 'Passion One', cursive;
   letter-spacing: 2px;
   font-size: 20px;
+  column-span: all;
 }
 
 .hand-shake {
@@ -74,8 +75,8 @@ li a:hover {
 
 #body {
   margin-top: 45px;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 15%;
+  margin-left: 15%;
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
   column-count: 2;
@@ -100,6 +101,8 @@ li a:hover {
 }
 
 #footer-text {
+  padding-top: 10px;
+  padding-bottom: 5px;
   margin-right: 10%;
   margin-left: 10%;
 }
