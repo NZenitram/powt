@@ -1,0 +1,42 @@
+.nav-main {
+  list-style-type: none;
+  margin-top: 45px;
+  margin-right: 105px;
+  margin-left: 105px;
+  padding-left: 95px;
+  padding-right: 95px;
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: white;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+li a {
+  padding: 14px 10px;
+  float: left;
+  display: inline-block;
+  text-decoration: none;
+  color: #1A82E2;
+  vertical-align: top;
+}
+
+li:last-child a {
+  border-radius: 5px;
+  width: 75%;
+  color: transparent;
+  background: no-repeat center/35% url('./images/circlehandshake.png');
+  background-position: 0px 5px;
+}
+
+li:last-child a:hover {
+  background-color: transparent;
+}
+
+li a:hover {
+  background-color: #294661;
+}
+
+.active {
+    background-color: #4CAF50;
+}
