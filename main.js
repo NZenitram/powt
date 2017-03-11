@@ -8,7 +8,23 @@ window.onload = function(){
 }
 
 function loadServices() {
-  document.getElementById('main').innerHTML = `<object type="text/html" data="services.html" ></object>`;
+  document.getElementById('main').innerHTML = `<div id="services-body">
+    <p id="services-text"><h2 id="services-header">Our Member Services</h2></p>
+  </div>
+  <div id="services-columns" class="row">
+    <div class="col s12 m4 l4">
+    <p><b>One on One member coaching for both students and parents.</b>
+
+      Members schedule one on one coaching sessions with their personal coach who has over 35 years of college admission and funding experience with students from all backgrounds. Sessions recorded for your review with detailed directions and video guides</p></div>
+    <div class="col s12 m4 l4">
+    <p><b>PSAT, SAT, ACT in depth preparation guide.</b>
+
+    Provides comprehensive state of the art tutorial services mirroring step by step guide for preparing and excelling in the college preparation and planning process. Timed and geared to tutor student in areas needing improvement to increase scores by 25%</p></div>
+    <div class="col s12 m4 l4">
+    <p><b>College Selection and Notification to colleges.</b>
+
+    Upon identifying student areas of interest and career direction, POWT identifies multiple colleges, both public and private, that are interested in recruiting student and would be willing to offer funding incentives to assist student in attending.</p></div>
+  </div>`;
 }
 
 function loadHome() {
