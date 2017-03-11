@@ -43,9 +43,9 @@ li a:hover {
 }
 
 .powt {
-
+  position: relative;;
   padding-right: 25px;
-  font-size: 15px;
+  font-size: 14px;
   float: right;
   font-family: 'Passion One', cursive;
   font-weight: 100;
@@ -133,4 +133,8 @@ li a:hover {
   padding-bottom: 5px;
   margin-right: 10%;
   margin-left: 10%;
+}
+
+#services {
+  column-span: all;
 }
