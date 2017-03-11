@@ -153,3 +153,7 @@ li a:hover {
   margin-right: 15%;
   margin-left: 15%;
 }
+
+#col2-pad {
+  padding-top: 20px;
+}
