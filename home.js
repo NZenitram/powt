@@ -6,6 +6,6 @@ function loadHome() {
     <p><b>The Power of Working Together Process</b></p>
     In partnership with community members, educators, business leaders and every citizen who dreams of helping serve the needs of college bound students and their parents, POWT provides resources and tools that make getting into and funding college a reality for every student we serve who follows our step by step admission and funding process.
     Click the Handshake Icon to print your student qualification questionnaire and send it to us as outlined on the form.</p>
-  </div></div>
+  </div>
 `;
 }
