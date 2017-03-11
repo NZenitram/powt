@@ -1,3 +1,10 @@
+body {
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+ margin-left: 0px
+}
+
 .nav-main {
   list-style-type: none;
   margin-top: 45px;
@@ -22,6 +29,7 @@ li a {
 }
 
 li:last-child a:hover {
+  color: #444546;
   background-color: transparent;
 }
 
@@ -42,4 +50,10 @@ li a:hover {
   font-family: 'Passion One', cursive;
   font-weight: 300;
   color: #444546;
+}
+
+#banner-img {
+  padding-top: 50px;
+  max-width: 100%;
+  max-height: 100%;
 }
