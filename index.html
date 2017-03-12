@@ -11,13 +11,15 @@
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="services.js"></script>
     <script type="text/javascript" src="home.js"></script>
+    <script type="text/javascript" src="calender.js"></script>
   </head>
   <body>
     <div id="nav-bar">
       <ul class="nav-main">
         <li><a href="#main" id="services" class="nav-links">Services</a></li>
         <li><a href="#" class="nav-links">Awards</a></li>
-        <li><a href="#" class="nav-links">Calender</a></li>
+        <li><a href="#main" id="calender" class="nav-links">Calender</a></li>
+        <li><a href="https://connection.naviance.com/family-connection/auth/login/?hsid=neighbors" id="login-button" class="login" target="_blank">Member Login</a></li>
         <li><a href="#body" id="home" class="powt" src="index.html">POWT</a></li>
       </ul>
     </div>
@@ -30,8 +32,26 @@
     </div>
     <div id="footer">
       <div id="footer-text">
-        <p>Members are selected through a personal interview process conducted by community members or directly by one of our staff volunteers. Resources are committed on a "first come" basis and an offer may be made at the end of the qualifying interview and should be delivered to the applicant in writing.</p>
-        <p>All content is the exclusive property of POWT © 1980 - 2017</p>
+        <div class="row">
+          <div class="col s12 m4 l4">
+            <p class="login-info">POWT is a national community service organization built on the concept of neighbor helping neighbor in bringing higher education resources to families of all backgrounds. We focus on connecting students with resources that come from the endowment funds of the colleges and universities they would choose to attend.</p>
+            <a class="waves-effect waves-lite blue darken-4 btn" href="https://connection.naviance.com/family-connection/auth/login/?hsid=neighbors">Member Login</a>
+          </div>
+          <div class="col s12 m4 l4">
+            <p class="selection">Members are selected through a personal interview process conducted by community members or directly by one of our staff volunteers. Resources are committed on a "first come" basis and an offer may be made at the end of the qualifying interview and should be delivered to the applicant in writing.</p>
+          </div>
+          <div class="col s12 m4 l4 contact-center">
+            <p class="contact-info">Contact Information</p>
+            <p>784 E Hemet Place</p>
+            <p>Oro Valley, AZ 85755</p>
+            <p>United States</p>
+            <p>Tel: 800-743-4732</p>
+            <a href="mailto:info@powt.org">info@powt.org</a>
+          </div>
+        </div>
+      </div>
+      <div id="base-copy">
+        <p class="copyright">All content is the exclusive property of POWT © 1980 - 2017</p>
       </div>
     </div>
   </body>
