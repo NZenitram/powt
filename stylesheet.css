@@ -108,6 +108,8 @@ li:first-child {
 }
 
 .copyright {
+  padding-top: 16px;
+  padding-left: 20px;
   color: white;
   font-style: bold;
 }
@@ -165,6 +167,11 @@ li:first-child {
   color: #9e9597;
 }
 
+#base-copy {
+  background-color: #363738;
+  height: 55px;
+}
+
 #footer-text {
   padding-top: 10px;
   padding-bottom: 5px;
@@ -200,4 +207,10 @@ li:first-child {
 
 #login-button {
   float: right;
+  color: blue;
+}
+
+#login-button:hover {
+  background-color: blue;
+  color: white;
 }
