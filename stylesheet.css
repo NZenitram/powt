@@ -38,6 +38,10 @@ li a:hover {
   background-color: #8c8c8c;
 }
 
+li:first-child {
+  padding-left: 15px;
+}
+
 .active {
     background-color: #4CAF50;
 }
@@ -97,12 +101,27 @@ li a:hover {
 .contact-info {
   color: white;
   font-size: 18px;
-  padding-bottom: 10px;
+}
+
+.contact-center {
+  text-align: center;
 }
 
 .copyright {
   color: white;
   font-style: bold;
+}
+
+.selection {
+  padding-top: 5px;
+}
+
+.login-info {
+  padding-top: 5px;
+}
+
+.pad-login {
+  padding-top: 75px;
 }
 
 #services-columns {
@@ -177,4 +196,8 @@ li a:hover {
 
 #calender-link {
   font-size: 20px;
+}
+
+#login-button {
+  float: right;
 }
