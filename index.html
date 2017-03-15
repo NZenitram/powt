@@ -1,40 +1,105 @@
 <html>
   <head>
-    <title>POWT</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FundCollege.org</title>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="services.js"></script>
     <script type="text/javascript" src="home.js"></script>
     <script type="text/javascript" src="calender.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
+    <header>
     <div id="nav-bar">
-      <ul class="nav-main">
+      <ul class="nav-main main-nav">
         <li><a href="#main" id="services" class="nav-links">Services</a></li>
         <li><a href="#" class="nav-links">Awards</a></li>
         <li><a href="#main" id="calender" class="nav-links">Calender</a></li>
         <li><a href="https://connection.naviance.com/family-connection/auth/login/?hsid=neighbors" id="login-button" class="login" target="_blank">Member Login</a></li>
-        <li><a href="#body" id="home" class="powt" src="index.html">POWT</a></li>
+        <li><a href="#body" id="home" class="powt" src="index.html">FundCollege.org</a></li>
       </ul>
     </div>
-    <div id="banner">
-      <img id="banner-img" class="darken" src="./images/uni_students3.png" />
-      <p class="smiles-3"><span class="smiles spacer">Why are they smiling about their future?<span></p>
-    </div>
-      <div id="main">
+    </header>
+    <div id="banner" class="parallax-container">
+      <div class='parallax'><img class="darken" src="./images/uni_students3.png">
       </div>
+      <div class="row card-img">
+        <div class="col s6 m6 l4">
+          <div class="card blue darken-4">
+            <div class="card-content white-text">
+              <span class="card-title">Why are they smiling about their future?</span>
+              <p>I am a very simple card. I am good at containing small bits of information.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <div id="main">
+        </div>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img class="darken" src="./images/ua-aerial.png"></div>
+        <div class="row card-img-lower">
+          <div class="col s12 m4">
+            <div class="card blue darken-4">
+              <div class="card-content white-text">
+                <span class="card-title">Card Title</span>
+                <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m4">
+              <div class="card blue darken-4">
+                <div class="card-content white-text">
+                  <span class="card-title">Card Title</span>
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m4">
+                <div class="card blue darken-4">
+                  <div class="card-content white-text">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                      I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="#">This is a link</a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+      </div>
+    </div>
     </div>
     <div id="footer">
       <div id="footer-text">
         <div class="row">
           <div class="col s12 m4 l4">
-            <p class="login-info">POWT is a national community service organization built on the concept of neighbor helping neighbor in bringing higher education resources to families of all backgrounds. We focus on connecting students with resources that come from the endowment funds of the colleges and universities they would choose to attend.</p>
+            <p class="login-info">FundCollege.org is a national community service organization built on the concept of neighbor helping neighbor in bringing higher education resources to families of all backgrounds. We focus on connecting students with resources that come from the endowment funds of the colleges and universities they would choose to attend.</p>
             <a class="waves-effect waves-lite blue darken-4 btn" href="https://connection.naviance.com/family-connection/auth/login/?hsid=neighbors">Member Login</a>
           </div>
           <div class="col s12 m4 l4">
@@ -45,13 +110,13 @@
             <p>784 E Hemet Place</p>
             <p>Oro Valley, AZ 85755</p>
             <p>United States</p>
-            <p>Tel: 800-743-4732</p>
-            <a href="mailto:info@powt.org">info@powt.org</a>
+            <p>Tel: 888-743-4731</p>
+            <a href="mailto:info@fundcollege.org">info@fundcollege.org</a>
           </div>
         </div>
       </div>
       <div id="base-copy">
-        <p class="copyright">All content is the exclusive property of POWT © 1980 - 2017</p>
+        <p class="copyright">All content is the exclusive property of FundCollege.org © 1980 - 2017</p>
       </div>
     </div>
   </body>
