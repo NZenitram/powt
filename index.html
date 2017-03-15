@@ -1,34 +1,49 @@
 <html>
   <head>
     <title>POWT</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="main.js"></script>
     <script type="text/javascript" src="services.js"></script>
     <script type="text/javascript" src="home.js"></script>
     <script type="text/javascript" src="calender.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
-    <div id="nav-bar">
-      <ul class="nav-main">
-        <li><a href="#main" id="services" class="nav-links">Services</a></li>
-        <li><a href="#" class="nav-links">Awards</a></li>
-        <li><a href="#main" id="calender" class="nav-links">Calender</a></li>
-        <li><a href="https://connection.naviance.com/family-connection/auth/login/?hsid=neighbors" id="login-button" class="login" target="_blank">Member Login</a></li>
-        <li><a href="#body" id="home" class="powt" src="index.html">POWT</a></li>
-      </ul>
-    </div>
-    <div id="banner">
-      <img id="banner-img" class="darken" src="./images/uni_students3.png" />
-      <p class="smiles-3"><span class="smiles spacer">Why are they smiling about their future?<span></p>
-    </div>
-      <div id="main">
+    <header>
+    <div class="navbar-fixed">
+      <div id="nav-bar">
+        <ul class="nav-main">
+          <li><a href="#main" id="services" class="nav-links">Services</a></li>
+          <li><a href="#" class="nav-links">Awards</a></li>
+          <li><a href="#main" id="calender" class="nav-links">Calender</a></li>
+          <li><a href="https://connection.naviance.com/family-connection/auth/login/?hsid=neighbors" id="login-button" class="login" target="_blank">Member Login</a></li>
+          <li><a href="#body" id="home" class="powt" src="index.html">POWT</a></li>
+        </ul>
       </div>
+    </div>
+  </header>
+    <div id="banner" class="parallax-container">
+      <div class='parallax'><img src="./images/uni_students3.png">
+      </div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <div id="main">
+        </div>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="./images/ua-aerial.png"></div>
+      </div>
+    </div>
     </div>
     <div id="footer">
       <div id="footer-text">

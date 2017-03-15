@@ -5,6 +5,10 @@ body {
  margin-left: 0px
 }
 
+.parallax-container {
+  height: "your height here";
+}
+
 .nav-main {
   list-style-type: none;
   margin-top: 45px;
@@ -159,7 +163,6 @@ li:first-child {
 }
 
 #footer {
-  margin-top: 75px;
   background-color: #444546;
   -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
   -moz-column-gap: 40px; /* Firefox */
