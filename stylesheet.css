@@ -134,6 +134,14 @@ li:first-child {
   padding-top: 75px;
 }
 
+.cal-pad {
+  padding-right: 65px;
+}
+
+.times {
+  text-align: center;
+}
+
 #services-columns {
   display: block;
   margin-top: 20px;
@@ -220,4 +228,8 @@ li:first-child {
 #login-button:hover {
   background-color: blue;
   color: white;
+}
+
+#main {
+  width: auto;
 }
