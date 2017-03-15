@@ -13,6 +13,13 @@ body {
   opacity: 0.8;
 }
 
+.card-img-lower {
+  position: relative;
+  margin-top: 100px;
+  opacity: 0.8;
+  width: 75%;
+}
+
 .nav-main {
   list-style-type: none;
   margin-top: 45px;
@@ -228,8 +235,4 @@ li:first-child {
 #login-button:hover {
   background-color: blue;
   color: white;
-}
-
-#main {
-  width: auto;
 }
