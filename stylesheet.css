@@ -78,7 +78,7 @@ li:first-child {
 
 .darken {
   -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
-  -webkit-filter: brightness(60%);
+  -webkit-filter: brightness(80%);
   box-shadow: 3px 3px 3px #888888;
 }
 
